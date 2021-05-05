@@ -1,0 +1,44 @@
+App 230831 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 230831 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 230831 output: Traceback (most recent call last):
+App 230831 output:   File "/opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py", line 369, in <module>
+App 230831 output:     app_module = load_app()
+App 230831 output:   File "/opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py", line 76, in load_app
+App 230831 output:     return imp.load_source('passenger_wsgi', startup_file)
+App 230831 output:   File "/home/proadmin01/virtualenv/fharmacy_app/3.7/lib64/python3.7/imp.py", line 171, in load_source
+App 230831 output:     module = _load(spec)
+App 230831 output:   File "<frozen importlib._bootstrap>", line 696, in _load
+App 230831 output:   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+App 230831 output:   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+App 230831 output:   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+App 230831 output:   File "/home/proadmin01/fharmacy_app/passenger_wsgi.py", line 1, in <module>
+App 230831 output:     from Fharmacy.wsgi import application
+App 230831 output:   File "/home/proadmin01/fharmacy_app/Fharmacy/wsgi.py", line 12, in <module>
+App 230831 output:     from django.core.wsgi import get_wsgi_application
+App 230831 output: ModuleNotFoundError: No module named 'django'
+App 303022 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 303022 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 303022 output: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 303022 output: [ pid=303022, time=2021-04-29 04:11:14,027 ]: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 303022 output: Bad Request: /fharmacy/
+App 303022 output: [ pid=303022, time=2021-04-29 04:11:14,096 ]: Bad Request: /fharmacy/
+App 307646 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 307646 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 307646 output: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 307646 output: [ pid=307646, time=2021-04-29 04:13:07,670 ]: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 307646 output: Bad Request: /fharmacy/
+App 307646 output: [ pid=307646, time=2021-04-29 04:13:07,730 ]: Bad Request: /fharmacy/
+App 309124 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 309124 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 309124 output: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 309124 output: [ pid=309124, time=2021-04-29 04:13:44,224 ]: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 309124 output: Bad Request: /fharmacy/
+App 309124 output: [ pid=309124, time=2021-04-29 04:13:44,279 ]: Bad Request: /fharmacy/
+App 310579 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 310579 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 310579 output: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 310579 output: [ pid=310579, time=2021-04-29 04:14:13,011 ]: Invalid HTTP_HOST header: 'ifortechs.com'. You may need to add 'ifortechs.com' to ALLOWED_HOSTS.
+App 310579 output: Bad Request: /fharmacy/
+App 310579 output: [ pid=310579, time=2021-04-29 04:14:13,111 ]: Bad Request: /fharmacy/
+App 312940 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 312940 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno

@@ -1,0 +1,1 @@
+from Fharmacy.wsgi import application
